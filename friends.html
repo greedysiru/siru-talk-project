@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--XEICON icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Siru-Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>Connecting</span>
+            <i class="xi-spinner-5 xi-spin"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>12:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>Charging</span>
+            <i class="xi-battery xi-x"></i>
+        </div>
+    </div>
+
+<!-- Screen header -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="xi-search xi-x"></i></span>
+            <span><i class="xi-music xi-x"></i></span>
+            <span><i class="xi-cog xi-x"></i></span>
+        </div>
+    </header>
+
+<!-- friends display link-->
+    <a id="friends-display-link">
+        <i class="xi-info"></i>Friends' Names Display
+        <i class="xi-angle-right-min xi-x"></i>
+    </a>
+
+<!-- user and friends rows -->
+<div class = "user-component">
+    <div class="user-component__row-user">
+        <img src="images/myprofile.JPG" class="user-component__avatar--xl">
+        <div class="user-component__text">
+            <div class="user-component__text-username">
+                Jaemin
+            </div>
+            <div class="user-component__text-subtitle">
+                I like HTML, CSS 😇
+            </div>
+        </div>
+    </div>
+    <div class="user-component__explain">
+        Birthday
+        <i class="xi-angle-up-min xi-x"></i>
+    </div>
+        <div class="user-component__row-birthday">
+            <img src="images/siru.JPG" class="user-component__avatar--sm">
+            <div class="user-component__text">
+                <div class="user-component__text-friend-name">
+                    Siru
+                </div>
+                <div class="user-component__text-firend-subtitle">
+                    It's my birthday 🎊🥳🎉
+                </div>
+            </div>            
+        </div>
+    
+
+</div>
+
+
+<!-- navigation-->
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__btn">
+            <a class="nav__link" href="friends.html">
+                <i class="xi-users xi-2x"></i>
+            </a>
+            
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+                <i class="xi-speech-o xi-2x"></i>
+            </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+                <i class="xi-search xi-2x"></i>
+            </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+                <i class="xi-ellipsis-h xi-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+</nav>
+
+<!--  landscape notice -->
+    <div id="no-landscape">
+        Please switch to portrait mode 
+        <br>or
+        <br>reduce the screen width 🐱
+    </div>
+   
+</body>
+</html>

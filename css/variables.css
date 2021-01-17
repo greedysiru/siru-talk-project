@@ -1,18 +1,23 @@
 :root {
   /* Colors */
-  --color-prime: #bcc3c7;
-  --color-prime-light: #f1f4f5;
-  --color-success: #a7d34c;
-  --color-info: #38d8e1;
-  --color-warning: #f97b1b;
-  --color-danger: #ff3a82;
-  --color-dark: #1f2325;
+  --color-prime: #343434;
+  --color-prime-light: #3a3a3a;
+  --color-success: #28c840;
+  --color-info: #226ef9;
+  --color-info-light: #5d78b0;
+  --color-warning: #e08b02;
+  --color-danger: #ff3561;
+  --color-font: #ffffff;
+  --color-font-gray: #939393;
   /* Border and Shadow(box shadow settings) */
-  --shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+  --shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  --shoadow-border: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-  --border: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  --border: #464646;
   /* space setting */
-  --horizontal-space: 25px;
-  --vertical-space: 20px;
+  --vertical-space: 25px;
+  --horizontal-space: 15px;
+  /* border raidus */
+  --radius: 5px;
+  --radius-avatar: 30px;
 }

@@ -2,46 +2,45 @@
 <html lang="en">
 <head>
     <!--XEICON icons-->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Siru Talk</title>
+    <title>Welcome to Siru-Talk</title>
 </head>
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
-
+            <span>Connecting</span>
+            <i class="xi-spinner-5 xi-spin"></i>
         </div>
         <div class="status-bar__column">
             <span>12:00</span>
         </div>
         <div class="status-bar__column">
-            <span>100%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
+            <span>Charging</span>
+            <i class="xi-battery xi-x"></i>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 가로모드 감지 -->
+<header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to Siru-Talk</h1>
+    <p class="welcome-header__text">If you hava a Siru-Talk Account,<br> log in with your email or phone number.</p>
+</header>
+<!-- login -->
+<form  action="friends.html" method="get" id= "login-form">
+    <input required name="username" type="email" placeholder="Email" />
+    <input required name="password" type="password" placeholder="Password" minlength="6" />
+    <input type="submit" value="Log In" />
+    <input type="submit" value="Sign Up" />
+    <a href="#">Find Siru-Talk Account or Password</a>
+</form>
+<!--  landscape notice -->
     <div id="no-landscape">
-        Please switch to portrait mode or reduce the screen width 🐱
+        Please switch to portrait mode 
+        <br>or
+        <br>reduce the screen width 🐱
     </div>
-
+   
 </body>
 </html>

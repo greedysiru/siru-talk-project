@@ -4,12 +4,46 @@
 
 /* Components */
 @import "components/media.css";
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
 /* Screens */
-
+@import "screens/index.css";
+@import "screens/friends.css";
 /* Common settings */
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: var(--color-prime);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-font);
+}
+
+div {
+  display: flex;
+  box-sizing: border-box;
+}
+
+i {
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  color: var(--color-info);
+}
+
+a {
+  color: var(--color-font);
+}
+
+img {
+  display: flex;
 }

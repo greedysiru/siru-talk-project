@@ -1,0 +1,18 @@
+#friends-display-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-prime-light);
+  opacity: 0.55;
+}
+
+.xi-info {
+  margin-right: 4px;
+  font-size: 18px;
+}
+
+.xi-angle-right-min {
+  padding-top: 4px;
+}
