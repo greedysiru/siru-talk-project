@@ -1,0 +1,18 @@
+:root {
+  /* Colors */
+  --color-prime: #bcc3c7;
+  --color-prime-light: #f1f4f5;
+  --color-success: #a7d34c;
+  --color-info: #38d8e1;
+  --color-warning: #f97b1b;
+  --color-danger: #ff3a82;
+  --color-dark: #1f2325;
+  /* Border and Shadow(box shadow settings) */
+  --shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  --border: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  /* space setting */
+  --horizontal-space: 25px;
+  --vertical-space: 20px;
+}
