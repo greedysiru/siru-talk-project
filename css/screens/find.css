@@ -4,6 +4,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 
 .recommended-music {
@@ -15,10 +16,12 @@
   border-bottom: 2px solid var(--border);
 }
 .recommended-music__title {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--color-font);
   opacity: 0.8;
   margin-left: var(--horizontal-space);
+  justify-content: flex-start;
+  font-weight: 700;
 }
 
 .recommended-music__list {
@@ -52,6 +55,10 @@
 .open-post {
   width: 90%;
   justify-content: space-between;
+  margin: 0px;
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .open-post__column {
@@ -100,8 +107,8 @@
 }
 
 .open-post__photo img {
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
   border-radius: 10px;
 }
 
@@ -129,4 +136,38 @@
 
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+.recommended-music__list {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.recommended-music__list div {
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.recommended-music__list img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: var(--shadow), var(--shadow-border);
+}
+
+.recommended-music {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.recommended-music > div {
+  width: 100%;
+}
+
+.cd {
+  position: relative;
 }

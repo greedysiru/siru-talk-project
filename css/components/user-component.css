@@ -51,6 +51,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 7px 0px;
+  width: 100%;
 }
 
 .user-component__text-username {
@@ -95,22 +96,31 @@
   font-weight: 600;
   font-size: 15px;
   color: var(--color-font-gray);
+  width: 220px;
 }
 
 .user-component-list__row {
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
+  width: 95%;
   padding-left: var(--horizontal-space);
+  padding-right: var(--horizontal-space);
   margin-top: 20px;
   margin-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 
 .user-component-list {
   width: 100%;
+  height: auto;
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 10px;
+  overflow: auto;
+  height: 900px;
 }
 
 .user-component-list > span {
@@ -118,6 +128,10 @@
   margin-bottom: 15px;
   align-items: center;
   font-weight: 600;
+}
+
+.user-component__column {
+  width: 50%;
 }
 
 .user-component__column:nth-child(even) {

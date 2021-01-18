@@ -1,5 +1,5 @@
 .more {
-  width: 100%;
+  width: 95%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -30,6 +30,7 @@
 
 .more-suggestions__icons {
   width: 100%;
+  flex-direction: row-reverse;
 }
 
 .more-suggestions__icon {
@@ -41,4 +42,22 @@
 
 .more-suggestions__icon-text {
   margin-top: var(--vertical-space);
+}
+
+.user-component__phonenum {
+  width: 58%;
+  position: relative;
+}
+
+.user-component__phonenum i {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: -2px;
+}
+
+.etc > li,
+.information > li {
+  padding: 10px;
+  border-radius: 10px;
 }

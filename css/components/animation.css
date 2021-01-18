@@ -1,4 +1,4 @@
-/* Friends row effect */
+/*row effect */
 @keyframes scale-up-center {
   0% {
     transform: scale(1);
@@ -9,6 +9,10 @@
   }
 }
 
+.information > li:hover,
+.etc > li:hover,
+.open-post:hover,
+.user-component-list__row:hover,
 .user-component__row-user:hover,
 .user-component__row:hover {
   animation: scale-up-center 0.5s ease-in-out forwards;
@@ -37,6 +41,11 @@
     transform: none;
   }
 }
+
+.more-suggestions__icon-image i:hover,
+.icon-row i:hover,
+.reply i:hover,
+.alt-header i:hover,
 .nav i:hover,
 .screen-header__icons i:hover {
   animation: icon-effect 1s linear infinite;
@@ -143,7 +152,7 @@
     transform: scale(1.05);
   }
   75% {
-    color: var(--color-success);
+    color: var(--color-font);
     transform: scale(1.025);
   }
 
@@ -155,4 +164,88 @@
 
 .xi-speech-o {
   animation: messagAlarm 0.5s ease-in-out infinite;
+}
+
+/* splash effect */
+@keyframes hideSplashScreen {
+  for {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  animation: hideSplashScreen 0.2s ease-in-out forwards;
+}
+
+/* chat effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    transform: none;
+    opacity: 0.8;
+  }
+}
+
+.message,
+.message-time {
+  animation: fadeIn 0.8s linear;
+}
+
+/* input effect */
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .xi-emoticon-smiley-o {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.reply input:focus {
+  width: 92vw;
+  height: 100px;
+}
+
+/* CD */
+
+@keyframes rotateCD {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.recommended-music__list img {
+  animation: rotateCD 2s linear infinite;
+}
+
+/* Heart beat */
+
+@keyframes heartBeat {
+  0% {
+    color: (--color-font);
+    transform: none;
+  }
+  50% {
+    color: var(--color-danger);
+    transform: scale(1.5);
+  }
+  100% {
+    color: (--color-font);
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
