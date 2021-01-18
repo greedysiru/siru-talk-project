@@ -1,9 +1,12 @@
 .activities {
   width: 100%;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
+  overflow-x: auto;
+}
+
+div::-webkit-scrollbar {
+  display: none !important;
 }
 
 .activities__column {

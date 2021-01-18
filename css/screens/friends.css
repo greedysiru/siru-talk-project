@@ -16,3 +16,34 @@
 .xi-angle-right-min {
   padding-top: 4px;
 }
+
+@keyframes hideSplashScreen {
+  for {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--color-prime);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+  box-shadow: var(--shadow-logo);
+  position: fixed;
+  z-index: 2;
+}
+
+#splash-screen img {
+  width: 200px;
+  height: 200px;
+}

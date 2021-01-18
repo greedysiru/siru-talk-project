@@ -5,7 +5,8 @@
   padding: 6px 0px;
   background-color: var(--color-font);
   color: var(--color-prime);
-  opacity: 0.8;
+  position: fixed;
+  z-index: 1;
 }
 
 .status-bar__column {

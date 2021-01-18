@@ -4,7 +4,7 @@
 }
 
 /* landscape */
-@media only screen and (min-width: 645px), (orientation: landscape) {
+@media only screen and (min-width: 600px), (orientation: landscape) {
   #no-landscape {
     position: absolute;
     z-index: 99;
@@ -15,7 +15,12 @@
     top: 0;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 35px;
     color: var(--color-info);
+    flex-direction: column;
   }
+}
+
+#no-landscape div {
+  margin: 20px;
 }

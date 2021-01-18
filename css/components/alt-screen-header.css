@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   padding: var(--horizontal-space);
+  padding-left: 0;
   margin: auto;
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
+  margin-top: 23px;
 }
 
 .alt-header__title {

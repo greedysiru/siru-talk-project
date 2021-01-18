@@ -36,8 +36,7 @@
 #login-form input:not([type="submit"]) {
   background-color: var(--color-prime);
   border-bottom: 3px solid var(--color-prime-light);
-  transition: border 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   padding-left: 10px;
   border-radius: var(--radius);
 }
@@ -46,7 +45,7 @@
   color: var(--color-font-gray);
 }
 
-#login-form input:focus {
+#login-form input:focus:not([type="submit"]) {
   border-bottom: 4px solid var(--color-warning);
   background-color: var(--color-prime-light);
 }

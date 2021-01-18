@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!--로고-->
+   <link href="images/sirutalk-logo.png" rel="shortcut icon" type="image/x-icon">
     <!--XEICON icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -18,7 +20,7 @@
             <span>12:00</span>
         </div>
         <div class="status-bar__column">
-            <span>Charging</span>
+            <span>100%</span>
             <i class="xi-battery xi-x"></i>
         </div>
     </div>
@@ -38,8 +40,8 @@
 
 
 <!-- Activites row -->
+<div class="activities__title">Activites</div>
 <div class="activities">
-    <div class="activities__title">Activites</div>
 <div class="activities__column">
     <a href="chat-siru.html">
         <div class="activities__column__picture">
@@ -50,6 +52,74 @@
         </div>
     </a>
 </div>
+
+<div class="activities__column">
+    <a href="chat-sirutalk.html">
+        <div class="activities__column__picture">
+        <img src="images/sirutalk-logo.png" class="activities__column__avatar" />
+        </div>
+        <div class="user-component__text">
+            <h4 class="activities__subtitle">Siru-Talk bot 🤖</h4>
+        </div>
+    </a>
+</div>
+
+<div class="activities__column">
+    <a href="chat-css.html">
+        <div class="activities__column__picture">
+        <img src="images/css.png" class="activities__column__avatar" />
+        </div>
+        <div class="user-component__text">
+            <h4 class="activities__subtitle">CSS</h4>
+        </div>
+    </a>
+</div>
+
+<div class="activities__column">
+    <a href="chat-html.html">
+        <div class="activities__column__picture">
+        <img src="images/HTML.png" class="activities__column__avatar" />
+        </div>
+        <div class="user-component__text">
+            <h4 class="activities__subtitle">HTML</h4>
+        </div>
+    </a>
+</div>
+
+<div class="activities__column">
+    <a href="chat-html.html">
+        <div class="activities__column__picture">
+        <img src="images/HTML.png" class="activities__column__avatar" />
+        </div>
+        <div class="user-component__text">
+            <h4 class="activities__subtitle">HTML</h4>
+        </div>
+    </a>
+</div>
+
+<div class="activities__column">
+    <a href="chat-mylover.html">
+        <div class="activities__column__picture">
+        <img src="images/mylover.jpeg" class="activities__column__avatar" />
+        </div>
+        <div class="user-component__text">
+            <h4 class="activities__subtitle">My Lover</h4>
+        </div>
+    </a>
+</div>
+
+<div class="activities__column">
+    <a href="chat-nomad.html">
+        <div class="activities__column__picture">
+        <img src="images/nomad.svg" class="activities__column__avatar" />
+        </div>
+        <div class="user-component__text">
+            <h4 class="activities__subtitle">Nomad Coders</h4>
+        </div>
+    </a>
+</div>
+
+
 </div>
 
 <!-- chat lists -->
@@ -70,7 +140,30 @@
     </div>
 </div>
     </a>
+
+    <a href="chat-sirutalk.html">
+        <div class="user-component-list__row">
+            <div class="user-component__column">
+                <img src="images/siru.JPG" class="user-component__avatar" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Siru</h4>
+                    <h6 class="user-component__subtitle">Give me a snack!!!</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">12:00</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+            </a>
 </main>
+
+
+
+
+
+
+
 
 <!-- navigation-->
 <nav class="nav">
@@ -93,7 +186,7 @@
         </li>
         <li class="nav__btn">
             <a class="nav__link" href="more.html">
-                <i class="xi-ellipsis-h xi-2x"></i>
+                <i class="xi-ellipsis-h xi-2x"><div class="dot"></div></i>
             </a>
         </li>
     </ul>
@@ -105,11 +198,11 @@
 </nav>
 
 <!--  landscape notice -->
-    <div id="no-landscape">
-        Please switch to portrait mode 
-        <br>or
-        <br>reduce the screen width 🐱
-    </div>
+<div id="no-landscape">
+    <div>Please switch to portrait mode </div>
+    <div>OR</div>
+    <div>Make it width 500 🐱</div>
+</div>
    
 </body>
 </html>
