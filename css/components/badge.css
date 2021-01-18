@@ -1,0 +1,15 @@
+.badge {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--color-success);
+  color: var(--color-font);
+  justify-content: center;
+  align-items: center;
+  padding-right: 1px;
+  padding-bottom: 1px;
+}
+
+.bolder {
+  font-weight: 900;
+}

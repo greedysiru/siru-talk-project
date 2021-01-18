@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--XEICON icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-Siru</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>Connecting</span>
+            <i class="xi-spinner-5 xi-spin"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>12:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>Charging</span>
+            <i class="xi-battery xi-x"></i>
+        </div>
+    </div>
+
+<!-- alt header -->
+<header class="alt-header">
+    <div class="alt-header__column">
+        <a href="chats.html">
+            <i class="xi-angle-left-min xi-2x"></i>
+        </a>
+    </div>
+    <div class="alt-header__column">
+        <h1 class="alt-header__title">Siru</h1>
+    </div>
+    <div class="alt-header__column">
+        <span>
+            <i class="xi-search xi-2x "></i>
+        </span>
+        <span>
+            <i class="xi-bars xi-2x"></i>
+        </span>
+    </div>
+</header>
+
+
+<!-- chats -->
+<main class="chat__list">
+<!-- time stamp-->
+    <div class="chat__list__timestamp">
+        Tuesday, June 30, 2020
+    </div>
+
+    <div class="chat__list__row friends">
+
+        <div class="message">
+           Hi! nice to meey you
+        </div>
+        <div class="message-time">
+            12:00
+        </div>
+    </div>
+
+    <div class="chat__list__row own">
+        <div class="message-time">
+            12:00
+        </div>
+        <div class="message">
+            Hi!
+        </div>
+    </div>
+
+
+
+
+
+
+</main>
+
+
+
+
+<!-- message reply form-->
+
+<form class="reply">
+    <div class="reply__column">
+        <i class="xi-plus-square-o xi-2x"></i>
+    </div>
+    <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="xi-emoticon-smiley-o xi-2x"></i>
+        <button>
+            <i class="xi-arrow-up xi-2x"></i>
+        </button>
+    </div>
+</form>
+
+<!--  landscape notice -->
+    <div id="no-landscape">
+        Please switch to portrait mode 
+        <br>or
+        <br>reduce the screen width 🐱
+    </div>
+   
+</body>
+</html>

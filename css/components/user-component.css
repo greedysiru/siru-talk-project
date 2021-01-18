@@ -30,10 +30,14 @@
 }
 
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 20px;
   margin-right: 20px;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 .user-component__text {
@@ -72,4 +76,48 @@
   justify-content: space-between;
   font-size: 15px;
   opacity: 0.8;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+
+.user-component__subtitle {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-font-gray);
+}
+
+.user-component-list__row {
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: var(--horizontal-space);
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+.user-component-list {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.user-component-list > span {
+  margin-left: var(--horizontal-space);
+  margin-bottom: 15px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.user-component__column:nth-child(even) {
+  width: 53%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 50px;
+  color: var(--color-font-gray);
 }
