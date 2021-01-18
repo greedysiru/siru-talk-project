@@ -193,6 +193,13 @@
   }
 }
 
+.information > li,
+.etc > li,
+.more-suggestions__icon,
+.cd,
+.open-post,
+.icon-row,
+.user-component-list__row,
 .message,
 .message-time {
   animation: fadeIn 0.8s linear;
