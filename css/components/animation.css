@@ -68,6 +68,10 @@
   }
 }
 
+.screen-header__icons .xi-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}
+
 /* warning */
 
 @keyframes birth {
@@ -193,16 +197,9 @@
   }
 }
 
-.information > li,
-.etc > li,
-.more-suggestions__icon,
-.cd,
-.open-post,
-.icon-row,
-.user-component-list__row,
 .message,
 .message-time {
-  animation: fadeIn 0.8s linear;
+  animation: fadeIn 0.8s linear forwards;
 }
 
 /* input effect */
@@ -255,4 +252,22 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+/* activites effect */
+
+@keyframes activitiesEffect {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.activities__column div:hover {
+  animation: activitiesEffect 1s linear infinite;
 }

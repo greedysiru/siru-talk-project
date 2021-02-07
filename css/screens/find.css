@@ -170,4 +170,6 @@
 
 .cd {
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
